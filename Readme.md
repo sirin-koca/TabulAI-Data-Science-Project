@@ -223,4 +223,4 @@ remote: error: See https://gh.io/lfs for more information.
 - [OsloMet](https://www.oslomet.no/en/)
 
 ---
-[OsloMet, Department of Computer Science](https://www.oslomet.no/en/about/tkd/it) | [SINTEF](https://www.sintef.no/en/) | Copyright © OsloMet // SINTEF
+Sirin Koca | [OsloMet, Department of Computer Science](https://www.oslomet.no/en/about/tkd/it) | [SINTEF](https://www.sintef.no/en/) | Copyright © OsloMet // SINTEF
