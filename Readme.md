@@ -1,11 +1,19 @@
 # Bachelor Thesis Project 🎓
-## Title: TabulAI - A Trend Analysis Tool for AI
+- Data Science Web Application
+
+## Title: TabulAI - An Interactive Analytics Tool for Artifical Intelligence (AI) Research
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
 
-## Introduction
-The main goal of this project is to develop a modern web application which dynamically visualizes trend analysis in AI research. 
+As part of my Bachelor Thesis, in collaboration with SINTEF, I have developed an interactive web application tool (TabulAI) to demistify and understand the evolution of AI Research.
 
-As part of our bachelor thesis at OsloMet - Oslo Metropolitan University, this project unfolds an exploratory journey into the dynamic world of AI. The project is developed by a dedicated team from Oslomet, in collaboration with SINTEF and Ontotext, and it integrates both theoretical concepts and practical applications, laying the groundwork for more in-depth development in the future.
+## Introduction
+TabulAI is an interactive data science web application that provides insightful visualizations of AI research trends, helping researchers and stakeholders explore the evolution of AI topics over time.
+
+## Key Features
+- **Intuitive Visualizations:** Explore top trends, research topics, and hierarchical AI topic trees.
+- **Advanced Data Processing:** Efficient handling and analysis of large datasets using NLP and machine learning.
+- **Interactive Dashboard:** Dynamic, user-friendly interface built with Streamlit for real-time data exploration.
+
 
 ## Objectives
 - Create an intuitive and user-friendly platform for visualizing AI research trends.
@@ -22,12 +30,13 @@ As part of our bachelor thesis at OsloMet - Oslo Metropolitan University, this p
   
 
 ## Technologies and Tools
-- **Data Sources**: arXiv dataset for academic papers, AI topic list from Ontotext.
-- **Vectorization**: KagiSearch, HuggingFace's NLP transformer models for generating text embedding.
-- **Similarity Search**: Utilizes Kagi to find cosine similarity to determine most relevant papers.
-- **Python Integration**: Both back-end and front-end development is based on Python.
-- **Data Analysis**: Jupyter notebook for interactive development.
-- **Visualization**: Python frameworks and libraries: Pandas & Numpy for data manipulation, Streamlit, Plotly Dash for advanced data visualizations.
+- **Python:** Backend and frontend development.
+- **Streamlit:** Interactive web application.
+- **Pandas & Numpy:** Data manipulation.
+- **HuggingFace Transformers:** NLP and vectorization.
+- **KagiSearch:** Similarity search.
+- **Plotly:** Data visualization.
+
 
 ## 1. Data extraction and preprocessing
    * AI Topic list from Ontotext (.csv)
@@ -117,52 +126,11 @@ For creating the dashboard, we think that Streamlit is an excellent choice, espe
 
   ### Streamlit 📊  
   
-  Streamlit is our choice for developing a web application in a data science context. It's particularly beneficial because:
+  Streamlit is our choice for developing this web application in a data science context. It's particularly beneficial because:
   - High compatibility: Streamlit offers a straightforward and intuitive API, making building and deploying web applications easier, especially for rapid development and for those primarily skilled in Python.
   - Interactivity: It allows for creating interactive dashboards which is ideal for showcasing data visualizations and trends.
   - Rapid Prototyping: Streamlit's framework supports rapid prototyping, enabling us to turn data scripts into shareable web apps quickly.
   - Integration with Python Ecosystem: It seamlessly integrates with the Python ecosystem, using libraries like Pandas, Numpy, and Plotly
-
-5. Building the Dashboard
-
-A simplified roadmap we have used for building the Streamlit-dashboard:
-- Set Up Dev Environment: Ensuring Streamlit is installed in our Python environment. ```pip install streamlit```
-- Loading Data: Using pandas to load and preprocess our data.
-- Initialize Streamlit: Start by creating a basic Streamlit script that runs a simple application. This can look like this, see the figure below: Figure 1.
-- Add Charts: Utilize libraries like matplotlib, seaborn, or Plotly to create the charts based on our data. Figure 1.
-- Make It Interactive: By incorporating Streamlit widgets for user input, like dropdowns and sliders, we can make dynamic charts based on user selections.
-
-Figure 1:
-```
-import streamlit as st
-import pandas as pd
-import numpy as np
-
-# Title of the app
-st.title('Simple Streamlit App')
-
-# Description
-st.write('This is a simple Streamlit app that generates a random time series data and displays a line chart.')
-
-# Generate random data
-data = pd.DataFrame({
-  'date': pd.date_range(start='1/1/2022', periods=30),
-  'value': np.random.randn(30).cumsum()
-})
-
-# Plot data
-st.line_chart(data.set_index('date'))
-
-# Show data in a table
-st.write('Below is the random data generated:', data)
-
-# Simple interaction: Slider
-number = st.slider('Choose a number', 0, 100, 50)
-st.write('You selected:', number)
-
-```
-
-Mastering every art form, experimentation and iteration will be key to success. Therefore we started with basic visualizations and gradually added complexity and interactivity as we became more comfortable. Utilizing online resources, tutorials, and documentation for Streamlit and visualization libraries has been invaluable.
 
 References:
 - Streamlit documentation
@@ -171,34 +139,45 @@ References:
 - Python documentation
 - Our curriculum book for visualisation
 
-## HowTo Run this Application 🤖
-- Download the repo as a zip-file and extract the project files in a new folder
-- Open the project in your fav IDE
-- Run the db_manager.py to populate the database: app_data.db 
-You will be seing this on the terminal:
-![img.png](images/img_12.png)
+# HowTo Run this Application 🤖
 
-- Install the dependencies by running:
+### Prerequisites
+- Python 3.8+
+- Git (for cloning the repository)
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/sirin-koca/AI-Analytics-Tool-BachelorThesis.git
+   cd AI-Analytics-Tool-BachelorThesis
+
+
+2.**Install the dependencies by running**:
 
 ```
 pip install -r requirements.txt
 ```
+
 This will dowload and install the following libraries: streamlit, pandas, numpy, plotly, matplotlib and others...  
 
- ### Starting the STREAMLIT APP: 
-Home.py is the entry point of the application, 
-so it's important to save the main module as Home.py. 
+3.**Set-up the db, run**:
+
+```
+python util/db_manager.py
+```
+
+4.**Start the Streamlit App**:
 
 ```
 streamlit run Home.py
 ```
-![img.png](images/img.png)
 
 - Dashboard Navigation: Use the sidebar to navigate through different sections of the application.
 - Data Visualization: Interact with the visualizations by selecting different parameters (e.g., AI topics, time range).
 - Data Update: To refresh the dataset with the latest papers, click the 'Update Data' button.
 - Search Functionality: Use the search bar to query specific AI topics or papers.
 
+
+# Screenshots
 
 ### Top Trends:Paper search:
 ![img_4.png](images/img_4.png)
