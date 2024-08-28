@@ -1,4 +1,4 @@
-# Bachelor Thesis Project 🎓
+# Bachelor Thesis Project 🎓 Grade A
 - Data Science Web Application
 
 ## Title: TabulAI - An Interactive Analytics Tool for Artifical Intelligence (AI) Research
