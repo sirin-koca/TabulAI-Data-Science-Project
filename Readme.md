@@ -1,4 +1,4 @@
-# Bachelor Thesis Project 🎓 Grade A
+# Bachelor Thesis Project 🎓 
 - Data Science Web Application
 
 ## Title: TabulAI - An Interactive Analytics Tool for Artifical Intelligence (AI) Research
@@ -204,7 +204,8 @@ remote: error: See https://gh.io/lfs for more information.
 ![img_1.png](images/wireframe.png)
 
 ## Acknowledgments
-- We thank to all the supportive and inspirational resources, sponsors, the research-team and our supervisor.
+This project received a Grade **A** as part of my Bachelor Thesis at OsloMet, developed in collaboration with SINTEF. Special thanks to my team members, Ahmet and Emma, and our supervisor for their guidance and support.
+
 
 ## References
 - [enRichMyData](https://www.sintef.no/en/projects/2022/enrichmydata/)
