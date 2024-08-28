@@ -1,7 +1,6 @@
 # Bachelor Thesis Project 🎓 
-- Data Science Web Application
-
-## TabulAI: An Interactive Analytics Tool to Visualize Artificial Intelligence (AI) Research
+## TabulAI - Data Science Web Application
+### An Interactive Analytics Tool to Visualize the Evolution of Artificial Intelligence (AI) Research
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
 
 As part of my Bachelor Thesis, in collaboration with SINTEF, I have developed an interactive web application tool (TabulAI) to demistify and understand the evolution of AI Research.
