@@ -1,28 +1,33 @@
-# Bachelor Thesis Project 🎓
-## Title: TabulAI - A Trend Analysis Tool for AI
+# Bachelor Thesis Project 🎓 
+- Data Science Web Application
+  
+# TabulAI - Trend Analysis Tool for AI Research 
+
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
 
 ## Introduction
-The main goal of this project is to develop a modern web application which dynamically visualizes trend analysis in AI research. 
 
-As part of our bachelor thesis at OsloMet - Oslo Metropolitan University, this project unfolds an exploratory journey into the dynamic world of AI. The project is developed by a dedicated team from Oslomet, in collaboration with SINTEF and Ontotext, and it integrates both theoretical concepts and practical applications, laying the groundwork for more in-depth development in the future.
+TabulAI is a cutting-edge web application designed to dynamically visualize trends in Artificial Intelligence (AI) research. Developed as part of a Bachelor Thesis project at OsloMet - Oslo Metropolitan University, this tool serves as an exploratory platform to analyze and track the evolution of AI topics. The project, a collaboration with SINTEF and Ontotext, blends theoretical knowledge with practical applications to lay the foundation for advanced trend analysis tools in AI.
 
 ## Objectives
-- Create an intuitive and user-friendly platform for visualizing AI research trends.
-- Show top trends, top research topics, most popular topics in AI reasearch.
-- Visualize the hierarchical AI Topic Tree.
-- Process and analyse large datasets efficiently and accurately.
-- Implement machine learning and NLP techniques for data vectorization and similarity search.
 
-## Scope
-- Data extraction and preprocessing.
-- Data vectorization, tagging and evaluation of tagging accuracy utilizing similarity search.
-- Data storage and retrieval.
-- Interactive data visualization tool as a web application.
-  
+- Develop an intuitive, user-friendly platform for visualizing AI research trends.
+- Identify and display top trends, key research topics, and the most popular subjects in AI.
+- Visualize the hierarchical AI Topic Tree, showcasing the relationships between various AI topics.
+- Efficiently process and analyze large datasets to ensure accurate insights.
+- Implement machine learning and natural language processing techniques for data vectorization and similarity search.
+
+## Scope - ETL Pipeline
+
+- **Data Extraction and Preprocessing**: Efficiently gather and prepare data for analysis.
+- **Data Vectorization and Tagging**: Utilize advanced similarity search techniques to tag research papers with relevant AI topics.
+- **Data Storage and Retrieval**: Store and manage the processed data to ensure quick access and retrieval.
+- **Interactive Data Visualization**: Develop a dynamic and interactive web application to visualize the analyzed data.
+
+ 
 
 ## Technologies and Tools
-- **Data Sources**: arXiv dataset for academic papers, AI topic list from Ontotext.
+- **Data Sources**: arXiv dataset for academic papers, AI topic list curated from DBPedia/Wikipedia.
 - **Vectorization**: KagiSearch, HuggingFace's NLP transformer models for generating text embedding.
 - **Similarity Search**: Utilizes Kagi to find cosine similarity to determine most relevant papers.
 - **Python Integration**: Both back-end and front-end development is based on Python.
