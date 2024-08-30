@@ -208,19 +208,20 @@ This project received a Grade **A** as part of my Bachelor Thesis at OsloMet, de
 
 ## References
 - [enRichMyData](https://www.sintef.no/en/projects/2022/enrichmydata/)
-- [InnoGraph](https://www.ontotext.com/blog/the-innograph-artificial-intelligence-taxonomy/)
-- [Python Documentation](https://docs.python.org/3/)
-- [Streamlit Documentation](https://docs.streamlit.io/)
-- [Plotly Dash Documentation](https://dash.plotly.com/)
-- [Similarity Search](https://www.earthdata.nasa.gov/dashboard/labs/similarity-search/)
 - [FAISS-GitHub](https://github.com/facebookresearch/faiss)
-- [Kaggle](https://www.kaggle.com/)
-- [HuggingFace](https://huggingface.co/)
-- [KagiSearch](https://www.kagi.com/)
 - [GitHub VCS](https://github.com/)
 - [Google Colab](https://colab.research.google.com/)
-- [SINTEF](https://www.sintef.no/)
+- [HuggingFace](https://huggingface.co/)
+- [InnoGraph](https://www.ontotext.com/blog/the-innograph-artificial-intelligence-taxonomy/)
+- [Kaggle](https://www.kaggle.com/)
+- [KagiSearch](https://www.kagi.com/)
 - [OsloMet](https://www.oslomet.no/en/)
+- [Plotly Dash Documentation](https://dash.plotly.com/)
+- [Python Documentation](https://docs.python.org/3/)
+- [Similarity Search](https://www.earthdata.nasa.gov/dashboard/labs/similarity-search/)
+- [SINTEF](https://www.sintef.no/)
+- [Streamlit](https://docs.streamlit.io/)
+
 
 ---
 Sirin Koca | [OsloMet, Department of Computer Science](https://www.oslomet.no/en/about/tkd/it) | [SINTEF](https://www.sintef.no/en/) | Copyright © OsloMet // SINTEF
