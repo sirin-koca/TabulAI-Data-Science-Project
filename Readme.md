@@ -197,8 +197,7 @@ streamlit run Home.py
 
 ## ISSUES with BIG FILES
 ![img_issue_2.png](images/img_issue_2.png)
-![img_issue_1.png](images/img_issue_1.png)
-remote: error: See https://gh.io/lfs for more information.  
+See https://gh.io/lfs for more information.  
 
 ## Wireframes
 ![img_1.png](images/wireframe.png)
