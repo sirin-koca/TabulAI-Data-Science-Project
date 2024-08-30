@@ -178,6 +178,9 @@ streamlit run Home.py
 
 # Screenshots
 
+## TabulAI 
+![tabuali.png](images/tabulai.png)
+
 ### Top Trends: n number of topics to analyze:
 ![img_4.png](images/img_4.png)
 ![img_5.png](images/img_5.png)
@@ -193,7 +196,6 @@ streamlit run Home.py
 ![img.png](images/ai-sunburst.png)
 ![img_11.png](images/img_11.png)
 ![img_9.png](images/img_9.png)
-![img_10.png](images/img_10.png)
 
 ## ISSUES with BIG FILES
 ![img_issue_2.png](images/img_issue_2.png)
