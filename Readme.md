@@ -7,6 +7,7 @@ As part of my Bachelor Thesis, in collaboration with SINTEF, I have developed an
 
 ![tabulai.png](images/tabulai.png)
 
+
 ## Introduction
 TabulAI is an interactive data science web application that provides insightful visualizations of AI research trends, helping researchers and stakeholders explore the evolution of AI topics over time.
 
