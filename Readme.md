@@ -5,7 +5,6 @@
 
 As part of my Bachelor Thesis, in collaboration with SINTEF, I have developed an interactive web application tool (TabulAI) to demistify and understand the evolution of AI Research.
 
-# TabulAI 
 ![tabuali.png](images/tabulai.png)
 
 ## Introduction
