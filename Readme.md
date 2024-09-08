@@ -161,7 +161,7 @@ pip install -r requirements.txt
 
 This will dowload and install the following libraries: streamlit, pandas, numpy, plotly, matplotlib and others...  
 
-3.**Set-up the db, run**:
+3.**Set-up and populate the app.db**:
 
 ```
 python util/db_manager.py
