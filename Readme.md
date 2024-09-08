@@ -41,8 +41,8 @@ TabulAI is an interactive data science web application that provides insightful 
 
 
 ## 1. Data extraction and preprocessing
-   * AI Topic list from Ontotext (.csv)
-   * arXiv dataset with subcategories (academic papers attributes) (.csv)
+   * AI Topic list from Ontotext (.csv), source: Wikipedia & DBpedia
+   * arXiv dataset with subcategories (academic papers attributes) (.csv), source: Kaggle
 
 ## 2. Vectorization 
 
