@@ -198,7 +198,7 @@ streamlit run Home.py
 ![img_11.png](images/img_11.png)
 ![img_9.png](images/img_9.png)
 
-## ISSUES with BIG FILES
+## Issues with BIG DATASETS
 ![img_issue_2.png](images/img_issue_2.png)
 See https://gh.io/lfs for more information.  
 
