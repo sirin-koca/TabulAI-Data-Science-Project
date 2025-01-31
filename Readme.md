@@ -3,8 +3,6 @@
 ### An Interactive Data Analytics Tool for Artificial Intelligence (AI)
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
 
-As part of my Bachelor Thesis, in collaboration with SINTEF, I have developed an interactive web application tool (TabulAI) to demistify and understand the evolution of AI Research.
-
 ![tabulai.png](images/tabulai.png)
 
 
