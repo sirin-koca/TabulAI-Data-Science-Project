@@ -1,6 +1,6 @@
 # Bachelor Thesis Project 🎓 
 ## TabulAI - Data Science Web Application
-### An interactive data analytics tool for monitoring research trends in Artificial Intelligence (AI). 
+### An interactive analytics tool for monitoring research trends in Artificial Intelligence (AI). 
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
 
 ![tabulai.png](images/tabulai.png)
