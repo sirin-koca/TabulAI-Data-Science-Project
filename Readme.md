@@ -150,8 +150,8 @@ References:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/sirin-koca/AI-Analytics-Tool-BachelorThesis.git
-   cd AI-Analytics-Tool-BachelorThesis
+   git clone https://github.com/sirin-koca/TabulAI_data-science-project.git
+   cd TabulAI_data-science-project
 
 
 2.**Install the dependencies by running**:
