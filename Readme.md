@@ -227,4 +227,4 @@ This project received a Grade **A** as part of my Bachelor Thesis at OsloMet, de
 
 
 ---
-Sirin Koca | [OsloMet, Department of Computer Science](https://www.oslomet.no/en/about/tkd/it) | [SINTEF](https://www.sintef.no/en/) | Copyright © OsloMet // SINTEF
+Sirin Koca | [OsloMet, Department of Computer Science](https://www.oslomet.no/en/about/tkd/it) | [SINTEF](https://www.sintef.no/en/) | Copyright © OsloMet // SINTEF, 2024
